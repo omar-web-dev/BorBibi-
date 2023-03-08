@@ -3,12 +3,11 @@ import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext } from 'pure-re
 import 'pure-react-carousel/dist/react-carousel.es.css';
 import Type from './Type';
 
-const carousel = () => {
+const Carousel = () => {
 
 
     return (
         <div>
-            {/* <h1>This is a Carousel</h1> */}
             <CarouselProvider
                 naturalSlideWidth={100}
                 naturalSlideHeight={50}
@@ -17,7 +16,6 @@ const carousel = () => {
                 interval={5000}
                 isPlaying={true}
             >
-
                 <Slider className='-z-50'>
                     <Slide index={0} >
                         <img className='w-[100%] cover center-center' src="https://i.ibb.co/gjS129Y/2.png" alt="slide-1" />
@@ -54,4 +52,4 @@ const carousel = () => {
     );
 };
 
-export default carousel;
+export default Carousel;

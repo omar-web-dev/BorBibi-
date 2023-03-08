@@ -1,11 +1,11 @@
 import React from 'react';
 
-const UserSheet = () => {
+const SingIn = () => {
     return (
         <div>
-            
+          this is a SingIn page  
         </div>
     );
 };
 
-export default UserSheet;
+export default SingIn;
