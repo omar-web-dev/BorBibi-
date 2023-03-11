@@ -46,10 +46,8 @@ const Navbar = () => {
         <ul tabIndex={0} className="text-2xl flex w-full justify-center">
           {navItems}
         </ul>
-
       </div>
     </div>
-
   );
 };
 
